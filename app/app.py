@@ -16,9 +16,9 @@ st.set_page_config(
 # LOAD DATA
 # --------------------------------------------------
 
-df = pd.read_csv("../customer_segments.csv")
-summary = pd.read_csv("../segment_summary.csv")
-pca_df = pd.read_csv("../pca_data.csv")
+df = pd.read_csv("customer_segments.csv")
+summary = pd.read_csv("segment_summary.csv")
+pca_df = pd.read_csv("pca_data.csv")
 
 # --------------------------------------------------
 # SIDEBAR
