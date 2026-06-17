@@ -15,10 +15,14 @@ st.set_page_config(
 # --------------------------------------------------
 # LOAD DATA
 # --------------------------------------------------
+from pathlib import Path
+import pandas as pd
 
-df = pd.read_csv("customer_segments.csv")
-summary = pd.read_csv("segment_summary.csv")
-pca_df = pd.read_csv("pca_data.csv")
+BASE_DIR = Path(__file__).parent
+
+df = pd.read_csv(BASE_DIR / "customer_segments.csv")
+summary = pd.read_csv(BASE_DIR / "segment_summary.csv")
+pca_df = pd.read_csv(BASE_DIR / "pca_data.csv")
 
 # --------------------------------------------------
 # SIDEBAR
