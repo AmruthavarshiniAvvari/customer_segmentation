@@ -8,6 +8,12 @@ The objective is to identify different customer groups such as VIP Customers, Lo
 
 ---
 
+## Live Demo
+
+🚀 Streamlit Dashboard: **[Click Here to Explore the Live Application](https://customersegmentation-jwthpwjxfyexn8mmuq5xfi.streamlit.app/)**
+
+---
+
 ## Features
 
 * Data Cleaning and Preprocessing
@@ -156,4 +162,3 @@ The K-Means clustering model identified four distinct customer segments:
 ## Author
 
 Amrutha varshini Avvari
-Aspiring Data Scientist
